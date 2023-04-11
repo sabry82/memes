@@ -1,25 +1,23 @@
 import React, {useState} from 'react';
 
-const Imgmeme = () =>{
+const Imgmeme = () => {
 
-    const [textmeme, setTextmeme] = useState();
+    const [textomeme, setTextomeme] = useState();
 
-    const textomeme = (e) => {
-        setTextmeme(e.target.value);
+    const textmeme = (e) =>{
+        setTextomeme(e.target.value);
         console.log(e.target.value);
-        
     }
 
-    return(
-      <div>
-        <h1>Edita tu propio meme</h1>
+  return (
+    <div>
+        <h1>Editá tu propio meme</h1>
 
-        <h2>Escribi tu texto</h2>
-        <input onChange={textomeme} className='' type='text'placeholder='Pone tu frase' name="meme"/>
-      
-      </div>  
-        
-    )
+        <h2>Escribí tu frase</h2>
+        <input onChange={textmeme} className="" type="text" placeholder="Pone tu frase" name="meme"/>
+
+    </div>
+  )
 }
 
 export default Imgmeme;
