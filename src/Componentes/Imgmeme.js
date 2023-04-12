@@ -11,10 +11,10 @@ const Imgmeme = () => {
 
   return (
     <div>
-        <h1>Editá tu propio meme</h1>
+        <h1 className='mt-5 mb-3 text-light '>Editá tu propio meme</h1>
 
-        <h2>Escribí tu frase</h2>
-        <input onChange={textmeme} className="" type="text" placeholder="Pone tu frase" name="meme"/>
+        <h2 className='mt-2 mb-3'>Escribí tu frase</h2>
+        <input onChange={textmeme} className="form-control w-25 m-auto d-block" type="text" placeholder="Pone tu frase" name="meme"/>
 
     </div>
   )
