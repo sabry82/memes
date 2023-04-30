@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;700&display=swap');
+
 .App {
   text-align: center;
 
 }
 
 body{
-  background-color: #00DBDE;
-  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+  background-color: #05bcff !important;
+  /*background-image: linear-gradient(90deg, #de00b955 0%, #FC00FF 100%);*/
+  font-family: 'Mukta' !important;
 }
 
 .App-logo {
